@@ -1,0 +1,22 @@
+.container {
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+    margin: 1em 1em 0 1em;
+    outline: none;
+    user-select: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.option {
+    border: none;
+    background: transparent;
+    font-size: 18pt;
+    color: lightgrey;
+}
+
+.selected {
+    color: darkgreen;
+}
